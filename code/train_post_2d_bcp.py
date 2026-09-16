@@ -868,13 +868,13 @@ if __name__ == "__main__":
     parser.add_argument("--flag_sampling_based_on_lb", 
                         default=False, action='store_true', help="using dynamic cutmix")
 
-    # steps
+    # Manuscript defaults: correct/incorrect margin targets 1/0, equal loss weights.
     parser.add_argument('--alpha','-a', type=float,
-                        default=1.5, help='margin的权重')
+                        default=1.0, help='margin-loss weight')
     parser.add_argument('--err','-e', type=float,
-                        default=0.2, help='margin中预测错误的地方的权重')
+                        default=0.0, help='margin target for incorrectly classified pixels')
     parser.add_argument('--right','-r', type=float,
-                        default=0.99, help='margin中预测错误的正确的权重')
+                        default=1.0, help='margin target for correctly classified pixels')
     # parse args
     args = parser.parse_args()
     args = vars(args)
