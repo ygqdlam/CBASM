@@ -82,13 +82,13 @@ Raw runs:
 | Setting | Run | Dice (%) | Jaccard (%) | 95HD | ASD | Checkpoint |
 |---:|---|---:|---:|---:|---:|---|
 | 4 labeled | seed2021 | 83.60 | 72.15 | 5.11 | 1.61 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth` |
-| 4 labeled | seed2023_rerun | 84.28 | 73.10 | 4.08 | 1.90 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth` |
-| 4 labeled | original_single_run | 83.11 | 71.52 | 5.28 | 1.99 | `Prostate/4_labeled_aut_addema_mar_60k/unet/unet_best_tea2_model.pth` |
+| 4 labeled | seed2023 | 84.28 | 73.10 | 4.08 | 1.90 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth` |
+| 4 labeled | seed2022 | 83.11 | 71.52 | 5.28 | 1.99 | `Prostate/4_labeled_aut_addema_mar_60k/unet/unet_best_tea2_model.pth` |
 | 7 labeled | seed2021 | 84.74 | 73.97 | 3.59 | 1.61 | `Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
 | 7 labeled | seed2022 | 84.43 | 73.50 | 5.01 | 1.66 | `Prostate/7_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
 | 7 labeled | seed2023 | 85.17 | 74.60 | 3.36 | 1.27 | `Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
 
-For the PROMISE12 4-labeled setting, `original_single_run` is the single run reported in the original submission; its 95HD value is `5.28`.
+
 
 Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tables_I_III_X_three_run_statistics/case_metric_sources.csv) and stored as `PROMISE12_*_case_metrics.csv` in [`evaluation_records/tables_I_III_X_three_run_statistics`](evaluation_records/tables_I_III_X_three_run_statistics).
 

@@ -1,0 +1,25 @@
+dataset,table,labeled_cases,run_id,checkpoint_path
+LA,Table I,4,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2021/vnet/vnet_best_ema_model.pth
+LA,Table I,4,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+LA,Table I,4,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2023/vnet/vnet_best_ema_model.pth
+LA,Table I,8,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/8_labeled_r15_la10_gpu1_seed2021/vnet/vnet_best_ema_model.pth
+LA,Table I,8,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/8_labeled_r15_la10_gpu1_seed2023/vnet/vnet_best_ema_model.pth
+LA,Table I,8,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/8_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,6,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/6_labeled_std_seed2021/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,6,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/6_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,6,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/6_labeled_std_seed2023/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,12,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2021/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,12,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+Pancreas-NIH,Table II,12,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2023/vnet/vnet_best_ema_model.pth
+PROMISE12,Table III,4,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth
+PROMISE12,Table III,4,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth
+PROMISE12,Table III,4,seed2022,/home/cq/code/AD-MT/code/results/Prostate/4_labeled_aut_addema_mar_60k/unet/unet_best_tea2_model.pth
+PROMISE12,Table III,7,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth
+PROMISE12,Table III,7,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2022/unet/unet_best_ema_model.pth
+PROMISE12,Table III,7,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth
+ACDC,Table X,3,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/3_labeled_std_seed2021/unet/unet_best_ema_model.pth
+ACDC,Table X,3,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/3_labeled_std_seed2022/unet/unet_best_ema_model.pth
+ACDC,Table X,3,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/3_labeled_std_seed2023/unet/unet_best_ema_model.pth
+ACDC,Table X,7,seed2021,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/7_labeled_std_seed2021/unet/unet_best_ema_model.pth
+ACDC,Table X,7,seed2022,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/7_labeled_std_seed2022/unet/unet_best_ema_model.pth
+ACDC,Table X,7,seed2023,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/ACDC/7_labeled_std_seed2023/unet/unet_best_ema_model.pth
