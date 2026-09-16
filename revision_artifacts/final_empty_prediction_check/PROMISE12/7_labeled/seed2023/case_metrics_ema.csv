@@ -1,0 +1,11 @@
+case_id,class_id,dice,jaccard,hd95,asd,model_type,checkpoint,dataset
+Case05,1,0.7146333538427504,0.5559762702566061,7.0710678118654755,2.152537851238396,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case09,1,0.8774525442654331,0.7816618707591744,6.324555320336759,2.6583782322920904,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case16,1,0.8870055531824007,0.7969541588627223,2.23606797749979,0.6238647694586017,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case30,1,0.8934244104188666,0.8073776602618264,3.0,1.057991322039631,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case34,1,0.8923392673894615,0.8056070248932571,2.0,0.8394382255447891,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case36,1,0.9077079627230068,0.8310121576880286,2.0,0.5133685654862717,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case38,1,0.9014524415012545,0.8205857220539113,2.0,0.8135760761469204,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case43,1,0.8372930645785254,0.7201239100504818,3.0,1.2044314673402967,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case45,1,0.8130511463844797,0.6849925705794948,3.0,1.31837870851814,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate
+Case49,1,0.7923545019781058,0.656115145774129,3.0,1.4730574605418145,ema,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth,Prostate

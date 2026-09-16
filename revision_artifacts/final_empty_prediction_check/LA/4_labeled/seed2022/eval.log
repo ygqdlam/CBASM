@@ -1,0 +1,29 @@
+/home/ygq/anaconda3/envs/semisam/bin/python test_performance_3d.py --root_path /home/ygq/cq/code/AD-MT-revision/data_split/LA --data_path /home/ygq/cq/dataset/LA/Left_Atrium/data --dataset LA --res_path /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/LA/4_labeled/seed2022/unused_res --exp LA_4_labeled_seed2022 --model vnet --num_classes 2 --gpu 1 --labeled_num 4 --model_type ema --checkpoint_path /home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth --case_metrics_csv /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/LA/4_labeled/seed2022/case_metrics_ema.csv --summary_csv /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/LA/4_labeled/seed2022/summary_metrics_ema.csv
+
+/home/ygq/cq/code0915/code_revised_passive/test_performance_3d.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict({k.replace('module.', ''): v for k,v in torch.load(save_model_path).items()})
+init weight from /home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+00,	0.89835, 0.81545, 4.12311, 1.69512
+01,	0.89747, 0.81401, 8.12404, 1.89660
+02,	0.87542, 0.77844, 12.88410, 1.34078
+03,	0.90407, 0.82494, 5.00000, 1.47472
+04,	0.88929, 0.80065, 5.09902, 1.80405
+05,	0.90056, 0.81911, 6.40312, 1.84753
+06,	0.91745, 0.84749, 3.46410, 1.31973
+07,	0.87834, 0.78308, 4.89898, 1.89903
+08,	0.93181, 0.87233, 4.00000, 1.28539
+09,	0.91853, 0.84934, 3.60555, 1.29253
+10,	0.84348, 0.72932, 9.94987, 2.88590
+11,	0.88247, 0.78966, 6.78233, 1.68746
+12,	0.89020, 0.80213, 8.06226, 1.34562
+13,	0.91469, 0.84279, 3.31662, 1.23700
+14,	0.92860, 0.86671, 4.12311, 1.09975
+15,	0.89740, 0.81389, 5.74456, 2.10405
+16,	0.90230, 0.82199, 7.00000, 2.66926
+17,	0.88396, 0.79206, 5.09902, 2.11730
+18,	0.91613, 0.84524, 14.52584, 1.89104
+19,	0.90471, 0.82599, 7.00000, 2.09871
+average metric is [[0.89876162 0.81673131 6.46028163 1.74957871]]
+case metrics csv: /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/LA/4_labeled/seed2022/case_metrics_ema.csv
+summary metrics csv: /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/LA/4_labeled/seed2022/summary_metrics_ema.csv
+[0.89876162 0.81673131 6.46028163 1.74957871]

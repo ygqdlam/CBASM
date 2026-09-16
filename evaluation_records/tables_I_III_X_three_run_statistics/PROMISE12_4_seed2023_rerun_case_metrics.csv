@@ -1,0 +1,11 @@
+case_id,class_id,dice,jaccard,hd95,asd,model_type,checkpoint,dataset
+Case05,1,0.7420324200188119,0.5898660918033424,8.366600265340756,3.2756255400050325,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case09,1,0.8444646488678914,0.7307994931012254,10.0,3.0546217663701682,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case16,1,0.8516618995956209,0.7416473417504079,2.23606797749979,0.8090260635256636,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case30,1,0.8854426836620446,0.7944344096823113,2.23606797749979,1.1414345389980762,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case34,1,0.8603341428691065,0.7549003398548728,4.242640687119285,1.7097864221964219,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case36,1,0.8935298650984858,0.8075499165443069,2.449489742783178,4.0183745572804535,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case38,1,0.9030914570141875,0.8233060657508875,2.23606797749979,0.8223805748559375,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case43,1,0.8452727676414121,0.732010767525505,3.0,1.1799627121497573,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case45,1,0.8085723573982845,0.6786583830073042,3.0,1.400354633254711,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate
+Case49,1,0.793117970955716,0.6571627979113891,3.0,1.5394744078563263,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth,Prostate

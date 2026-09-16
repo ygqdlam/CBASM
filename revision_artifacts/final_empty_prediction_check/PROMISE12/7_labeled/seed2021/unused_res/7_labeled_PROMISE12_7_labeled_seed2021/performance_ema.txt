@@ -1,0 +1,5 @@
+init weight from /home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth 
+metric is [[0.84740675 0.73972537 3.59478027 1.61455734]] 
+average metric is [0.84740675 0.73972537 3.59478027 1.61455734]
+case metrics csv is /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/case_metrics_ema.csv 
+summary metrics csv is /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/summary_metrics_ema.csv 

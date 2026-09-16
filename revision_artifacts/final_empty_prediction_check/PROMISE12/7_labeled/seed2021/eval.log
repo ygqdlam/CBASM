@@ -1,0 +1,16 @@
+/home/ygq/anaconda3/envs/semisam/bin/python test_performance_2d.py --root_path /home/ygq/cq/code/AD-MT-revision/data_split/Prostate --data_path /home/ygq/cq/dataset/Prostate/h5file --res_path /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/unused_res --exp PROMISE12_7_labeled_seed2021 --model unet --num_classes 2 --gpu_id 1 --labeled_num 7 --model_type ema --checkpoint_path /home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth --case_metrics_csv /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/case_metrics_ema.csv --summary_csv /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/summary_metrics_ema.csv
+
+/home/ygq/cq/code0915/code_revised_passive/test_performance_2d.py:11: DeprecationWarning: Please import `zoom` from the `scipy.ndimage` namespace; the `scipy.ndimage.interpolation` namespace is deprecated and will be removed in SciPy 2.0.0.
+  from scipy.ndimage.interpolation import zoom
+/home/ygq/cq/code0915/code_revised_passive/test_performance_2d.py:126: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  net.load_state_dict(torch.load(save_model_path))
+init weight from /home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:04<00:38,  4.32s/it] 20%|██        | 2/10 [00:08<00:35,  4.45s/it] 30%|███       | 3/10 [00:09<00:18,  2.63s/it] 40%|████      | 4/10 [00:11<00:13,  2.31s/it] 50%|█████     | 5/10 [00:12<00:09,  1.87s/it] 60%|██████    | 6/10 [00:14<00:07,  1.94s/it] 70%|███████   | 7/10 [00:14<00:04,  1.49s/it] 80%|████████  | 8/10 [00:15<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:15<00:00,  1.01it/s]100%|██████████| 10/10 [00:16<00:00,  1.18it/s]100%|██████████| 10/10 [00:16<00:00,  1.65s/it]
+metric is [[0.84740675 0.73972537 3.59478027 1.61455734]] 
+
+average metric is [0.84740675 0.73972537 3.59478027 1.61455734]
+
+case metrics csv is /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/case_metrics_ema.csv 
+
+summary metrics csv is /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/PROMISE12/7_labeled/seed2021/summary_metrics_ema.csv 
+

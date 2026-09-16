@@ -1,0 +1,11 @@
+case_id,class_id,dice,jaccard,hd95,asd,model_type,checkpoint,dataset
+Case05,1,0.7229666823903275,0.5661298514462906,11.0,3.734099485379204,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case09,1,0.8314525541871652,0.711526568447387,16.522711641858304,4.097503810807596,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case16,1,0.856559553844111,0.7491072724633474,2.449489742783178,0.8114293960937337,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case30,1,0.8731824246398769,0.7749101928595797,3.1622776601683795,0.7489239975339096,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case34,1,0.8798170829790657,0.7854226926785238,3.0,0.7785982557135108,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case36,1,0.8853081849785633,0.7942178932762128,2.0,0.6729854751233545,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case38,1,0.8974322191938029,0.8139474368982565,3.0,0.8435032628405359,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case43,1,0.826363044892648,0.7041044858859791,4.0,1.4023806879852456,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case45,1,0.8037580855407167,0.671902627575147,3.0,1.4631164739323508,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate
+Case49,1,0.7831132578490104,0.643538326717872,3.0,1.538589648547394,ema,./results_revised/Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth,Prostate

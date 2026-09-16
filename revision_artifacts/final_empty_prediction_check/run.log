@@ -1,0 +1,12 @@
+[eval] LA 4_labeled seed2021 on GPU 1
+[skip] existing metrics: LA 4_labeled seed2021
+[eval] LA 4_labeled seed2022 on GPU 1
+[eval] LA 4_labeled seed2023 on GPU 1
+[eval] Pancreas 12_labeled seed2021 on GPU 1
+[eval] Pancreas 12_labeled seed2022 on GPU 1
+[eval] Pancreas 12_labeled seed2023 on GPU 1
+[eval] PROMISE12 7_labeled seed2021 on GPU 1
+[eval] PROMISE12 7_labeled seed2022 on GPU 1
+[eval] PROMISE12 7_labeled seed2023 on GPU 1
+Wrote /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/per_seed_metrics.csv
+Wrote /home/ygq/cq/code0915/final_3seed_metrics_empty_policy/mean_std_metrics.csv

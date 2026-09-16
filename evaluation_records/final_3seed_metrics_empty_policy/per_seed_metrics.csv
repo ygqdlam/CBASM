@@ -1,0 +1,10 @@
+dataset,setting,seed,dice,jaccard,hd95,asd,zero_boundary_rows,empty_penalty_rows,checkpoint
+LA,4_labeled,2021,90.1321529605951,82.10218854181444,6.017831011227242,1.7259479720926891,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2021/vnet/vnet_best_ema_model.pth
+LA,4_labeled,2022,89.87616229356907,81.67313081232585,6.460281630455016,1.749578705975031,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+LA,4_labeled,2023,89.80898438530235,81.56823156858769,6.298704185918513,1.6508597225864114,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/LA/4_labeled_std_seed2023/vnet/vnet_best_ema_model.pth
+Pancreas,12_labeled,2021,83.51945660361817,72.00644289256863,4.538518214387674,1.1811363702395883,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2021/vnet/vnet_best_ema_model.pth
+Pancreas,12_labeled,2022,83.69028270807692,72.2499017117081,4.60509810489833,1.2833901127377714,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2022/vnet/vnet_best_ema_model.pth
+Pancreas,12_labeled,2023,83.6809783166278,72.24414723872023,4.595050522645844,1.24991579240479,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Pancreas/12_labeled_std_seed2023/vnet/vnet_best_ema_model.pth
+PROMISE12,7_labeled,2021,84.74067545753107,73.97253719784985,3.594780272564246,1.6145573422642012,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth
+PROMISE12,7_labeled,2022,84.4310915914336,73.49532316055326,5.008207718680135,1.6623232732801874,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2022/unet/unet_best_ema_model.pth
+PROMISE12,7_labeled,2023,85.16714246264281,74.60406491179633,3.3631691109702024,1.2655022678606953,0,0,/home/ygq/cq/code/AD-MT-revision/code_revised/results_revised/Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth
