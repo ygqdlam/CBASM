@@ -28,21 +28,21 @@ Full-precision CSV files:
 
 Summary:
 
-| Setting | Dice (%) | Jaccard (%) | 95HD | ASD |
+| Setting | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD |
 |---:|---:|---:|---:|---:|
-| 4 labeled | 89.94 +/- 0.17 | 81.78 +/- 0.28 | 6.26 +/- 0.22 | 1.71 +/- 0.05 |
-| 8 labeled | 91.23 +/- 0.03 | 83.93 +/- 0.05 | 5.74 +/- 0.10 | 1.51 +/- 0.04 |
+| 4&nbsp;labeled | 89.94&nbsp;±&nbsp;0.17 | 81.78&nbsp;±&nbsp;0.28 | 6.26&nbsp;±&nbsp;0.22 | 1.71&nbsp;±&nbsp;0.05 |
+| 8&nbsp;labeled | 91.23&nbsp;±&nbsp;0.03 | 83.93&nbsp;±&nbsp;0.05 | 5.74&nbsp;±&nbsp;0.10 | 1.51&nbsp;±&nbsp;0.04 |
 
 Raw runs:
 
-| Setting | Run | Dice (%) | Jaccard (%) | 95HD | ASD | Checkpoint |
+| Setting | Run | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD | Checkpoint |
 |---:|---|---:|---:|---:|---:|---|
-| 4 labeled | seed2021 | 90.13 | 82.10 | 6.02 | 1.73 | `LA/4_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
-| 4 labeled | seed2022 | 89.88 | 81.67 | 6.46 | 1.75 | `LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
-| 4 labeled | seed2023 | 89.81 | 81.57 | 6.30 | 1.65 | `LA/4_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
-| 8 labeled | seed2021 | 91.20 | 83.87 | 5.68 | 1.54 | `LA/8_labeled_r15_la10_gpu1_seed2021/vnet/vnet_best_ema_model.pth` |
-| 8 labeled | seed2023 | 91.23 | 83.93 | 5.69 | 1.46 | `LA/8_labeled_r15_la10_gpu1_seed2023/vnet/vnet_best_ema_model.pth` |
-| 8 labeled | seed2022 | 91.26 | 83.98 | 5.86 | 1.52 | `LA/8_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2021 | 90.13 | 82.10 | 6.02 | 1.73 | `LA/4_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2022 | 89.88 | 81.67 | 6.46 | 1.75 | `LA/4_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2023 | 89.81 | 81.57 | 6.30 | 1.65 | `LA/4_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
+| 8&nbsp;labeled | seed2021 | 91.20 | 83.87 | 5.68 | 1.54 | `LA/8_labeled_r15_la10_gpu1_seed2021/vnet/vnet_best_ema_model.pth` |
+| 8&nbsp;labeled | seed2023 | 91.23 | 83.93 | 5.69 | 1.46 | `LA/8_labeled_r15_la10_gpu1_seed2023/vnet/vnet_best_ema_model.pth` |
+| 8&nbsp;labeled | seed2022 | 91.26 | 83.98 | 5.86 | 1.52 | `LA/8_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
 
 Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tables_I_III_X_three_run_statistics/case_metric_sources.csv) and stored as `LA_*_case_metrics.csv` in [`evaluation_records/tables_I_III_X_three_run_statistics`](evaluation_records/tables_I_III_X_three_run_statistics).
 
@@ -50,21 +50,21 @@ Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tabl
 
 Summary:
 
-| Setting | Dice (%) | Jaccard (%) | 95HD | ASD |
+| Setting | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD |
 |---:|---:|---:|---:|---:|
-| 6 labeled | 82.32 +/- 0.16 | 70.27 +/- 0.19 | 5.06 +/- 0.16 | 1.30 +/- 0.10 |
-| 12 labeled | 83.63 +/- 0.10 | 72.17 +/- 0.14 | 4.58 +/- 0.04 | 1.24 +/- 0.05 |
+| 6&nbsp;labeled | 82.32&nbsp;±&nbsp;0.16 | 70.27&nbsp;±&nbsp;0.19 | 5.06&nbsp;±&nbsp;0.16 | 1.30&nbsp;±&nbsp;0.10 |
+| 12&nbsp;labeled | 83.63&nbsp;±&nbsp;0.10 | 72.17&nbsp;±&nbsp;0.14 | 4.58&nbsp;±&nbsp;0.04 | 1.24&nbsp;±&nbsp;0.05 |
 
 Raw runs:
 
-| Setting | Run | Dice (%) | Jaccard (%) | 95HD | ASD | Checkpoint |
+| Setting | Run | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD | Checkpoint |
 |---:|---|---:|---:|---:|---:|---|
-| 6 labeled | seed2021 | 82.31 | 70.20 | 5.06 | 1.21 | `Pancreas/6_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
-| 6 labeled | seed2022 | 82.49 | 70.48 | 4.91 | 1.29 | `Pancreas/6_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
-| 6 labeled | seed2023 | 82.16 | 70.12 | 5.22 | 1.41 | `Pancreas/6_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
-| 12 labeled | seed2021 | 83.52 | 72.01 | 4.54 | 1.18 | `Pancreas/12_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
-| 12 labeled | seed2022 | 83.69 | 72.25 | 4.61 | 1.28 | `Pancreas/12_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
-| 12 labeled | seed2023 | 83.68 | 72.24 | 4.60 | 1.25 | `Pancreas/12_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
+| 6&nbsp;labeled | seed2021 | 82.31 | 70.20 | 5.06 | 1.21 | `Pancreas/6_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
+| 6&nbsp;labeled | seed2022 | 82.49 | 70.48 | 4.91 | 1.29 | `Pancreas/6_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
+| 6&nbsp;labeled | seed2023 | 82.16 | 70.12 | 5.22 | 1.41 | `Pancreas/6_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
+| 12&nbsp;labeled | seed2021 | 83.52 | 72.01 | 4.54 | 1.18 | `Pancreas/12_labeled_std_seed2021/vnet/vnet_best_ema_model.pth` |
+| 12&nbsp;labeled | seed2022 | 83.69 | 72.25 | 4.61 | 1.28 | `Pancreas/12_labeled_std_seed2022/vnet/vnet_best_ema_model.pth` |
+| 12&nbsp;labeled | seed2023 | 83.68 | 72.24 | 4.60 | 1.25 | `Pancreas/12_labeled_std_seed2023/vnet/vnet_best_ema_model.pth` |
 
 Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tables_I_III_X_three_run_statistics/case_metric_sources.csv) and stored as `Pancreas-NIH_*_case_metrics.csv` in [`evaluation_records/tables_I_III_X_three_run_statistics`](evaluation_records/tables_I_III_X_three_run_statistics).
 
@@ -72,21 +72,21 @@ Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tabl
 
 Summary:
 
-| Setting | Dice (%) | Jaccard (%) | 95HD | ASD |
+| Setting | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD |
 |---:|---:|---:|---:|---:|
-| 4 labeled | 83.66 +/- 0.58 | 72.26 +/- 0.80 | 4.82 +/- 0.65 | 1.83 +/- 0.20 |
-| 7 labeled | 84.78 +/- 0.37 | 74.02 +/- 0.56 | 3.99 +/- 0.89 | 1.51 +/- 0.22 |
+| 4&nbsp;labeled | 83.66&nbsp;±&nbsp;0.58 | 72.26&nbsp;±&nbsp;0.80 | 4.82&nbsp;±&nbsp;0.65 | 1.83&nbsp;±&nbsp;0.20 |
+| 7&nbsp;labeled | 84.78&nbsp;±&nbsp;0.37 | 74.02&nbsp;±&nbsp;0.56 | 3.99&nbsp;±&nbsp;0.89 | 1.51&nbsp;±&nbsp;0.22 |
 
 Raw runs:
 
-| Setting | Run | Dice (%) | Jaccard (%) | 95HD | ASD | Checkpoint |
+| Setting | Run | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD | Checkpoint |
 |---:|---|---:|---:|---:|---:|---|
-| 4 labeled | seed2021 | 83.60 | 72.15 | 5.11 | 1.61 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth` |
-| 4 labeled | seed2023 | 84.28 | 73.10 | 4.08 | 1.90 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth` |
-| 4 labeled | seed2022 | 83.11 | 71.52 | 5.28 | 1.99 | `Prostate/4_labeled_aut_addema_mar_60k/unet/unet_best_tea2_model.pth` |
-| 7 labeled | seed2021 | 84.74 | 73.97 | 3.59 | 1.61 | `Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
-| 7 labeled | seed2022 | 84.43 | 73.50 | 5.01 | 1.66 | `Prostate/7_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
-| 7 labeled | seed2023 | 85.17 | 74.60 | 3.36 | 1.27 | `Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2021 | 83.60 | 72.15 | 5.11 | 1.61 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2021/unet/unet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2023 | 84.28 | 73.10 | 4.08 | 1.90 | `Prostate/4_labeled_r15_prostate10_gpu1_seed2023_rerun/unet/unet_best_ema_model.pth` |
+| 4&nbsp;labeled | seed2022 | 83.11 | 71.52 | 5.28 | 1.99 | `Prostate/4_labeled_aut_addema_mar_60k/unet/unet_best_tea2_model.pth` |
+| 7&nbsp;labeled | seed2021 | 84.74 | 73.97 | 3.59 | 1.61 | `Prostate/7_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
+| 7&nbsp;labeled | seed2022 | 84.43 | 73.50 | 5.01 | 1.66 | `Prostate/7_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
+| 7&nbsp;labeled | seed2023 | 85.17 | 74.60 | 3.36 | 1.27 | `Prostate/7_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
 
 
 
@@ -96,21 +96,21 @@ Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tabl
 
 Summary:
 
-| Setting | Dice (%) | Jaccard (%) | 95HD | ASD |
+| Setting | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD |
 |---:|---:|---:|---:|---:|
-| 3 labeled | 87.83 +/- 0.56 | 79.06 +/- 0.82 | 2.38 +/- 0.51 | 0.68 +/- 0.13 |
-| 7 labeled | 89.23 +/- 0.43 | 81.15 +/- 0.64 | 1.71 +/- 0.25 | 0.52 +/- 0.08 |
+| 3&nbsp;labeled | 87.83&nbsp;±&nbsp;0.56 | 79.06&nbsp;±&nbsp;0.82 | 2.38&nbsp;±&nbsp;0.51 | 0.68&nbsp;±&nbsp;0.13 |
+| 7&nbsp;labeled | 89.23&nbsp;±&nbsp;0.43 | 81.15&nbsp;±&nbsp;0.64 | 1.71&nbsp;±&nbsp;0.25 | 0.52&nbsp;±&nbsp;0.08 |
 
 Raw runs:
 
-| Setting | Run | Dice (%) | Jaccard (%) | 95HD | ASD | Checkpoint |
+| Setting | Run | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD | Checkpoint |
 |---:|---|---:|---:|---:|---:|---|
-| 3 labeled | seed2021 | 88.07 | 79.38 | 2.79 | 0.70 | `ACDC/3_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
-| 3 labeled | seed2022 | 87.18 | 78.13 | 2.53 | 0.80 | `ACDC/3_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
-| 3 labeled | seed2023 | 88.23 | 79.68 | 1.81 | 0.54 | `ACDC/3_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
-| 7 labeled | seed2021 | 89.57 | 81.68 | 1.43 | 0.43 | `ACDC/7_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
-| 7 labeled | seed2022 | 88.75 | 80.43 | 1.80 | 0.54 | `ACDC/7_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
-| 7 labeled | seed2023 | 89.37 | 81.33 | 1.90 | 0.58 | `ACDC/7_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
+| 3&nbsp;labeled | seed2021 | 88.07 | 79.38 | 2.79 | 0.70 | `ACDC/3_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
+| 3&nbsp;labeled | seed2022 | 87.18 | 78.13 | 2.53 | 0.80 | `ACDC/3_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
+| 3&nbsp;labeled | seed2023 | 88.23 | 79.68 | 1.81 | 0.54 | `ACDC/3_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
+| 7&nbsp;labeled | seed2021 | 89.57 | 81.68 | 1.43 | 0.43 | `ACDC/7_labeled_std_seed2021/unet/unet_best_ema_model.pth` |
+| 7&nbsp;labeled | seed2022 | 88.75 | 80.43 | 1.80 | 0.54 | `ACDC/7_labeled_std_seed2022/unet/unet_best_ema_model.pth` |
+| 7&nbsp;labeled | seed2023 | 89.37 | 81.33 | 1.90 | 0.58 | `ACDC/7_labeled_std_seed2023/unet/unet_best_ema_model.pth` |
 
 Per-case files are listed in [`case_metric_sources.csv`](evaluation_records/tables_I_III_X_three_run_statistics/case_metric_sources.csv) and stored as `ACDC_*_case_metrics.csv` in [`evaluation_records/tables_I_III_X_three_run_statistics`](evaluation_records/tables_I_III_X_three_run_statistics).
 
@@ -126,12 +126,12 @@ Records:
 
 Summary:
 
-| Dataset | Setting | Dice (%) | Jaccard (%) | 95HD | ASD | Empty-prediction cases |
+| Dataset | Setting | Dice&nbsp;(%) | Jaccard&nbsp;(%) | 95HD | ASD | Empty-prediction&nbsp;cases |
 |---|---:|---:|---:|---:|---:|---:|
-| LA | 4 labeled | 89.94 +/- 0.17 | 81.78 +/- 0.28 | 6.26 +/- 0.22 | 1.71 +/- 0.05 | 0 |
-| Pancreas | 12 labeled | 83.63 +/- 0.10 | 72.17 +/- 0.14 | 4.58 +/- 0.04 | 1.24 +/- 0.05 | 0 |
-| PROMISE12 | 7 labeled | 84.78 +/- 0.37 | 74.02 +/- 0.56 | 3.99 +/- 0.89 | 1.51 +/- 0.22 | 0 |
-| Average | - | 86.12 +/- 0.21 | 75.99 +/- 0.33 | 4.94 +/- 0.38 | 1.49 +/- 0.11 | 0 |
+| LA | 4&nbsp;labeled | 89.94&nbsp;±&nbsp;0.17 | 81.78&nbsp;±&nbsp;0.28 | 6.26&nbsp;±&nbsp;0.22 | 1.71&nbsp;±&nbsp;0.05 | 0 |
+| Pancreas | 12&nbsp;labeled | 83.63&nbsp;±&nbsp;0.10 | 72.17&nbsp;±&nbsp;0.14 | 4.58&nbsp;±&nbsp;0.04 | 1.24&nbsp;±&nbsp;0.05 | 0 |
+| PROMISE12 | 7&nbsp;labeled | 84.78&nbsp;±&nbsp;0.37 | 74.02&nbsp;±&nbsp;0.56 | 3.99&nbsp;±&nbsp;0.89 | 1.51&nbsp;±&nbsp;0.22 | 0 |
+| Average | - | 86.12&nbsp;±&nbsp;0.21 | 75.99&nbsp;±&nbsp;0.33 | 4.94&nbsp;±&nbsp;0.38 | 1.49&nbsp;±&nbsp;0.11 | 0 |
 
 No empty foreground predictions were observed in these final evaluations. Therefore, the reported 95HD and ASD values are not affected by the empty-prediction boundary-metric issue.
 
@@ -139,9 +139,9 @@ The merged per-case file contains 150 rows:
 
 | Dataset | Setting | Seeds | Number of per-case records |
 |---|---:|---:|---:|
-| LA | 4 labeled | 2021, 2022, 2023 | 60 |
-| Pancreas | 12 labeled | 2021, 2022, 2023 | 60 |
-| PROMISE12 | 7 labeled | 2021, 2022, 2023 | 30 |
+| LA | 4&nbsp;labeled | 2021, 2022, 2023 | 60 |
+| Pancreas | 12&nbsp;labeled | 2021, 2022, 2023 | 60 |
+| PROMISE12 | 7&nbsp;labeled | 2021, 2022, 2023 | 30 |
 
 ## Revision Artifacts
 
